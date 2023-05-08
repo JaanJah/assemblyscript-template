@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Template repository to start off a AssemblyScript project",
   "main": "assembly/index.ts",
+  "engines": {
+		"node": ">=18"
+	},
   "scripts": {
     "test": "node tests",
     "asbuild:debug": "asc assembly/index.ts --target debug",
