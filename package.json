@@ -2,7 +2,7 @@
   "name": "assemblyscript-template",
   "version": "1.0.0",
   "description": "Template repository to start off a AssemblyScript project",
-  "main": "src/main.ts",
+  "main": "assembly/index.ts",
   "scripts": {
     "test": "node tests",
     "asbuild:debug": "asc assembly/index.ts --target debug",
